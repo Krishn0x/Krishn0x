@@ -1,53 +1,54 @@
 <div align="center">
   <h1>👋 Hi, I'm Krishn Kumar</h1>
-  <p><b>Cybersecurity-focused B.Tech CSE student building secure systems at the intersection of Cybersecurity, AI & Software Engineering.</b></p>
+  <p><b>Cybersecurity engineer in progress building AI-powered security systems, backend infrastructure, and security research prototypes.</b></p>
+  <p><i>Cybersecurity • AI • Software Engineering • Security Research</i></p>
 </div>
 
 ---
 
 ## 🔐 What I Build
-I design and develop systems focused on threat intelligence, secure infrastructure, and forensic analysis. My work spans deep dependency analysis, AI-powered security controls, and obfuscation-resilient clone detection.
+I design and develop practical security systems. My engineering focuses on Android/APK analysis, dependency-risk intelligence, secure backend infrastructure, and applying AI to security tooling.
 
 ## 🚀 Featured Projects
 
-### 🔐 [CloneTrace](https://github.com/Krishn0x/CloneTrace)
+### 🔐 [CloneTrace](https://github.com/Krishn0x/CloneTrace) *(Active)*
 *Obfuscation-resilient Android clone & brand impersonation detection using static evidence fusion.*
-- **What I built:** An engine that uses multi-layer structural analysis to detect trojanized clones and repackaged Android applications.
-- **Security / technical approach:** Goes beyond simple package hashes by analyzing API structure, resource entropy, and certificate fingerprints to generate an explainable "Clone DNA" with a dedicated Threat Confidence score.
+- **What I built:** An analysis engine that uses structural evidence fusion to detect repackaged and trojanized Android applications.
+- **Security / technical approach:** Analyzes API structure similarity, resource structure entropy, package namespaces, and certificate/signing fingerprints to generate an explainable "Clone DNA". Includes a dedicated Threat Confidence score and adversarial testing capabilities.
 - **Tech:** Python, FastAPI, React, Androguard
-
-### 🛡️ [TrustTrace](https://github.com/Krishn0x/TrustTrace)
-*Real-time cybersecurity dependency and blast-radius intelligence platform.*
-- **What I built:** A scenario-based intelligence dashboard that models application dependencies and simulates compromise scenarios to answer *"What happens if this service is compromised?"*
-- **Security / technical approach:** Computes blast-radius and risk severity using dependency graph traversal. Implements an x402 pay-per-analysis flow on Algorand TestNet for machine-to-machine AI agent access.
-- **Tech:** Python, FastAPI, React, NetworkX, x402, Algorand TestNet
 
 ### 👁️ DRISHTI
 *Secure Unified CCTV Intelligence Platform.*
-- **Context:** Built for the Gujarat Police Innovation Challenge 2026.
-- **What I built:** A platform to process and analyze CCTV feeds for law enforcement with strict evidence integrity.
-- **Security / technical approach:** Integrates AI computer vision with RBAC, CCTV feed tamper detection, and BSA Section 63 evidence workflows, prioritizing DPDP Act compliance.
+- **Context:** Hackathon Project — Gujarat Police Innovation Challenge 2026.
+- **What I built:** A prototype platform to process and analyze CCTV feeds for law enforcement.
+- **Security / technical approach:** Explores integrating AI computer vision with RBAC, CCTV feed tamper detection, and BSA Section 63 evidence workflows, focusing on DPDP Act compliance considerations.
 - **Tech:** FastAPI, React, PostgreSQL, PostGIS, Redis, YOLOv8, EasyOCR, WebSockets
+
+### 🛡️ [TrustTrace](https://github.com/Krishn0x/TrustTrace)
+*Real-time cybersecurity dependency and blast-radius intelligence platform.*
+- **What I built:** A scenario-based intelligence dashboard that models application dependencies to simulate compromise scenarios.
+- **Security / technical approach:** Computes potential blast radius and risk severity using dependency graph traversal. Integrates an x402 pay-per-analysis flow on Algorand TestNet for API access.
+- **Tech:** Python, FastAPI, React, NetworkX, x402, Algorand TestNet
 
 ### 🧠 [Route-Clear](https://github.com/Krishn0x/route-clear)
 *AI Fulfillment-to-Settlement Controller.*
-- **Context:** Built for the Razorpay AI Builder Internship 2026.
-- **What I built:** A secure, AI-driven finance controller that processes logistics fulfillment documents and automates settlement actions while strictly confining the AI's financial authority.
-- **Security / technical approach:** Enforces a strict architectural boundary (*"AI interprets evidence. Deterministic code decides money"*). Uses an Evidence Groundedness Gate and a deterministic SafetyEngine to prevent LLM hallucinations from executing financial actions.
+- **Context:** Razorpay AI Builder Internship 2026.
+- **What I built:** An AI-driven finance controller that processes logistics fulfillment documents while strictly confining the AI's financial authority.
+- **Security / technical approach:** Enforces the architectural rule *"AI interprets evidence. Deterministic code decides money."* Uses a deterministic SafetyEngine to prevent LLM hallucinations from directly executing financial actions.
 - **Tech:** Python, FastAPI, React, Gemini
 
 ### 🔑 CogniPass
 *Password-Free Authentication Through Cognitive Patterns (Research Prototype)*
-- **What I built:** An experimental approach to passwordless authentication.
-- **Security / technical approach:** Explores behavioral and cognitive patterns to authenticate users securely without traditional passwords.
+- **What I built:** An experimental research prototype for passwordless authentication.
+- **Security / technical approach:** Explores using behavioral and cognitive patterns to securely authenticate users without traditional credentials.
 - **Tech:** React, Authentication flows
 
 ---
 
 ## 🧠 About Me
-- 🎓 **Degree:** B.Tech Computer Science & Engineering — Cybersecurity @ Chandigarh University (CGPA: 8.48)
-- 🎯 **Focus:** Network Security, AppSec, and AI-driven security tooling.
-- 🛠️ **Engagement:** Active in hackathons and CTFs, prototyping practical security solutions.
+- **Degree:** B.Tech Computer Science & Engineering — Cybersecurity @ Chandigarh University (CGPA: 8.48)
+- **Focus:** Practical cybersecurity, AI-powered security systems, and secure software engineering.
+- **Engagement:** Active participant in hackathons and CTFs, building practical security projects.
 
 ---
 
