@@ -11,7 +11,7 @@ I design and develop practical security systems. My engineering focuses on Andro
 
 ## 🚀 Featured Projects
 
-### 🔐 [CloneTrace](https://github.com/Krishn0x/CloneTrace) *(Active)*
+### 🔐 [CloneTrace](https://github.com/Krishn0x/CloneTrace) 
 *Obfuscation-resilient Android clone & brand impersonation detection using static evidence fusion.*
 - **What I built:** An analysis engine that uses structural evidence fusion to detect repackaged and trojanized Android applications.
 - **Security / technical approach:** Analyzes API structure similarity, resource structure entropy, package namespaces, and certificate/signing fingerprints to generate an explainable "Clone DNA". Includes a dedicated Threat Confidence score and adversarial testing capabilities.
